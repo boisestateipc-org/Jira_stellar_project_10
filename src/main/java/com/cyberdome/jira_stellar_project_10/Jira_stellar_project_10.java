@@ -13,11 +13,11 @@ public class Jira_stellar_project_10 {
    
 public static void CreateJiraTicket() {
     // Jira API endpoint for creating an issue
-    String apiUrl = "https://your-jira-instance/rest/api/2/issue";
+    String apiUrl = "https://44.237.16.114/connect/api/data/'+index+'/'+'_search";
 
     // Jira credentials for authentication
-    String username = "your-username";
-    String password = "your-password";
+    String username = "your-username-for-api-access";
+    String password = "your-password-for-api-access";
 
     // JSON payload for creating an issue
     String payload = "{\"fields\":{\"project\":{\"key\":\"YOUR-PROJECT-KEY\"},\"summary\":\"Test issue\",\"description\":\"This is a test issue\",\"issuetype\":{\"name\":\"Bug\"}}}";
